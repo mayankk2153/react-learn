@@ -9,6 +9,10 @@ function NavBar() {
         Home
       </NavLink>
       {" | "}
+      <NavLink to="/course" activeStyle={activeStyle}>
+        Course Page
+      </NavLink>
+      {" | "}
       <NavLink to="/about" activeStyle={activeStyle}>
         About
       </NavLink>
