@@ -13,7 +13,7 @@ export function loadCourses() {
   return function(dispatch) {
     return courseApi
       .getCourses()
-      .then(courses => {
+      .then(courses =>  {
         dispatch(loadCourseSuccess(courses));
       })
       .catch(error => {
